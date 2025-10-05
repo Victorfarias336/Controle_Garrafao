@@ -1,50 +1,55 @@
-# Welcome to your Expo app 👋
+# Controle Garrafão: Histórico e Indicadores de Vendas
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 💧 Sobre o Aplicativo
 
-## Get started
+**Controle_Garrafao** é um aplicativo mobile desenvolvido em **React Native** como parte de um projeto de extensão da [Universidade Estácio](https://estacio.br/).
 
-1. Install dependencies
+O objetivo é fornecer uma **ferramenta de registro e análise** para pequenos empreendedores que vendem garrafões de água. A aplicação permite o **registro diário e detalhado das vendas** realizadas, funcionando como um **histórico de saídas (vendas)**.
 
-   ```bash
-   npm install
-   ```
+Além do registro, o aplicativo disponibiliza **gráficos e indicadores visuais** para auxiliar o empreendedor a compreender e analisar o desempenho e as tendências de venda ao longo do tempo.
 
-2. Start the app
+## 📱 Interface do Aplicativo
 
-   ```bash
-   npx expo start
-   ```
+<div align="center">
+    <img src="https://github.com/Victorfarias336/Controle_Garrafao/blob/main/assets/readme_images/Foto1.jpg" width="30%" alt="Tela inicial">
+    &nbsp; &nbsp; &nbsp;
+    <img src="https://github.com/Victorfarias336/Controle_Garrafao/blob/main/assets/readme_images/Foto2.jpg" width="30%" alt="Tela de Histórico de Vendas">
+    &nbsp; &nbsp; &nbsp;
+    <img src="https://github.com/Victorfarias336/Controle_Garrafao/blob/main/assets/readme_images/Foto3.jpg" width="30%" alt="Tela de Gráficos e Indicadores">
+</div>
 
-In the output, you'll find options to open the app in a
+## 🛠️ Tecnologias Utilizadas
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Este projeto foi construído utilizando:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+* **Núcleo:** React Native (com **TypeScript** e **JavaScript**)
+* **Ambiente:** **Expo** e **EAS** (para desenvolvimento, build e distribuição)
+* **Armazenamento:** **AsyncStorage** (para persistência de dados local)
+* **Gráficos:** **react-native-gifted-charts**
+* **Backend:** Node.js (utilizado no ambiente de desenvolvimento/scripts)
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 🚀 Como Executar Localmente
 
-```bash
-npm run reset-project
-```
+1.  Clone o repositório:
+    ```bash
+    git clone <URL_DO_REPOSITORIO>
+    ```
+2.  Acesse o diretório do projeto:
+    ```bash
+    cd Controle_Garrafao
+    ```
+3.  Instale as dependências:
+    ```bash
+    npm install
+    # ou yarn install
+    ```
+4.  Inicie o projeto Expo:
+    ```bash
+    npm start
+    # ou expo start
+    ```
+    (Use o aplicativo Expo Go no seu celular ou um emulador para rodar.)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
