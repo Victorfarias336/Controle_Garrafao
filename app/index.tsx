@@ -166,7 +166,7 @@ export default function App() {
   const renderItem = ({ item }) => (
     <TouchableOpacity onPress={() => handleEditVenda(item)} style={styles.vendaItem}>
       <Text style={styles.aguaNome}>{item.agua}</Text>
-      <Text>Quant. {item.quantidade} R$ {item.valor}</Text>
+      <Text>Qtd. {item.quantidade} R$ {item.valor}</Text>
       {item.isEdited && <Text style={styles.editedLabel}>Editado</Text>}
     </TouchableOpacity>
   );
@@ -176,7 +176,7 @@ export default function App() {
     <TouchableOpacity onPress={() => handleEditVenda(item)} style={styles.vendaItem}>
         <Text style={styles.aguaNome}>{item.agua}</Text>
         <Text>Data: {item.data}</Text>
-        <Text>Quant. {item.quantidade} R$ {item.valor}</Text>
+        <Text>Qtd. {item.quantidade} R$ {item.valor}</Text>
         {item.isEdited && <Text style={styles.editedLabel}>Editado</Text>}
     </TouchableOpacity>
   );

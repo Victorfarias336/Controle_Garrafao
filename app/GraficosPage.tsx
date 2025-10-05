@@ -201,7 +201,7 @@ export default function GraficosPage() {
                                   <View
                                     style={{
                                       height: 90,
-                                      width: 100,
+                                      width: 110,
                                       justifyContent: 'center',
                                       marginTop: -30,
                                       marginLeft: -40,
