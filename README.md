@@ -53,3 +53,9 @@ Este projeto foi construído utilizando:
     (Use o aplicativo Expo Go no seu celular ou um emulador para rodar.)
 
 ---
+
+## 🖼️ Créditos de Imagem
+
+O ícone principal do aplicativo é uma ilustração de garrafa de água usada para fins de demonstração e avaliação acadêmica.
+
+* **Atribuição do Ícone:** [Water Vectors by Vecteezy](https://www.vecteezy.com/free-vector/water)
